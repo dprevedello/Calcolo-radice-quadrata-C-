@@ -9,7 +9,7 @@ int main(void) {
         printf("Inserire il numero del qualse si vuole conoscere la radice quadrata: ");
         scanf("%f", &numero);
         if(numero < 0)
-            printf("ERRORE: per il calcolo della radice il numero deve positivo.\n\n");
+            printf("ERRORE: per il calcolo della radice il numero deve essere positivo.\n\n");
     } while(numero < 0);
 
     printf("\nLa radice vale: %.10f\n", radQuadrata(numero));
