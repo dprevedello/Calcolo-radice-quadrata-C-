@@ -6,7 +6,7 @@ int main(void) {
     float numero;
 
     do {
-        printf("Inserire il numero del qualse si vuole conoscere la radice quadrata: ");
+        printf("Inserire il numero del quale si vuole conoscere la radice quadrata: ");
         scanf("%f", &numero);
         if(numero < 0)
             printf("ERRORE: per il calcolo della radice il numero deve essere positivo.\n\n");
